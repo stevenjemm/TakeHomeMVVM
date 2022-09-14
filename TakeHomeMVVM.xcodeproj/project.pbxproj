@@ -11,6 +11,8 @@
 		DF7C591228D19E3800957252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C591128D19E3800957252 /* ContentView.swift */; };
 		DF7C591428D19E3A00957252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C591328D19E3A00957252 /* Assets.xcassets */; };
 		DF7C591728D19E3A00957252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C591628D19E3A00957252 /* Preview Assets.xcassets */; };
+		DF7C591F28D19EB400957252 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C591E28D19EB400957252 /* Symbols.swift */; };
+		DF7C592128D1A08600957252 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C592028D1A08600957252 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DF7C591128D19E3800957252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF7C591328D19E3A00957252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7C591628D19E3A00957252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF7C591E28D19EB400957252 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		DF7C592028D1A08600957252 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				DF7C590F28D19E3800957252 /* TakeHomeMVVMApp.swift */,
 				DF7C591128D19E3800957252 /* ContentView.swift */,
+				DF7C591D28D19E6F00957252 /* Resources */,
 				DF7C591328D19E3A00957252 /* Assets.xcassets */,
 				DF7C591528D19E3A00957252 /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				DF7C591628D19E3A00957252 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF7C591D28D19E6F00957252 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C591E28D19EB400957252 /* Symbols.swift */,
+				DF7C592028D1A08600957252 /* Theme.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7C591F28D19EB400957252 /* Symbols.swift in Sources */,
+				DF7C592128D1A08600957252 /* Theme.swift in Sources */,
 				DF7C591228D19E3800957252 /* ContentView.swift in Sources */,
 				DF7C591028D19E3800957252 /* TakeHomeMVVMApp.swift in Sources */,
 			);
