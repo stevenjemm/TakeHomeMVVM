@@ -23,6 +23,7 @@
 		DF7C591628D19E3A00957252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF7C591E28D19EB400957252 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 		DF7C592028D1A08600957252 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DF7C593228D2CA4B00957252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +56,12 @@
 		DF7C590E28D19E3800957252 /* TakeHomeMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				DF7C593228D2CA4B00957252 /* Info.plist */,
+				DF7C592328D2BF5C00957252 /* Features */,
+				DF7C592228D2BF5600957252 /* Base */,
+				DF7C591D28D19E6F00957252 /* Resources */,
 				DF7C590F28D19E3800957252 /* TakeHomeMVVMApp.swift */,
 				DF7C591128D19E3800957252 /* ContentView.swift */,
-				DF7C591D28D19E6F00957252 /* Resources */,
 				DF7C591328D19E3A00957252 /* Assets.xcassets */,
 				DF7C591528D19E3A00957252 /* Preview Content */,
 			);
@@ -79,6 +83,132 @@
 				DF7C592028D1A08600957252 /* Theme.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF7C592228D2BF5600957252 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DF7C592328D2BF5C00957252 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C592728D2BF7900957252 /* Settings */,
+				DF7C592628D2BF7200957252 /* Detail */,
+				DF7C592528D2BF6C00957252 /* Create */,
+				DF7C592428D2BF6600957252 /* People */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DF7C592428D2BF6600957252 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C592A28D2BF8E00957252 /* View Models */,
+				DF7C592928D2BF8900957252 /* Model */,
+				DF7C592828D2BF8400957252 /* Views */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		DF7C592528D2BF6C00957252 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C593028D2BFE700957252 /* View Models */,
+				DF7C592E28D2BFD800957252 /* Model */,
+				DF7C592B28D2BFBD00957252 /* Views */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		DF7C592628D2BF7200957252 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C592D28D2BFD200957252 /* Model */,
+				DF7C592C28D2BFC800957252 /* Views */,
+				DF7C592F28D2BFDD00957252 /* View Models */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DF7C592728D2BF7900957252 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C593128D2C51600957252 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DF7C592828D2BF8400957252 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF7C592928D2BF8900957252 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF7C592A28D2BF8E00957252 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		DF7C592B28D2BFBD00957252 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF7C592C28D2BFC800957252 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF7C592D28D2BFD200957252 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF7C592E28D2BFD800957252 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF7C592F28D2BFDD00957252 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		DF7C593028D2BFE700957252 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		DF7C593128D2C51600957252 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +416,9 @@
 				DEVELOPMENT_TEAM = 3552947V4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,9 +445,9 @@
 				DEVELOPMENT_TEAM = 3552947V4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
