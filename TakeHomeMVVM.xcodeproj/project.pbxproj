@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF7A5D8F295E815600E981D9 /* SJLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A5D8E295E815600E981D9 /* SJLogger.swift */; };
 		DF7C591028D19E3800957252 /* TakeHomeMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C590F28D19E3800957252 /* TakeHomeMVVMApp.swift */; };
 		DF7C591428D19E3A00957252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C591328D19E3A00957252 /* Assets.xcassets */; };
 		DF7C591728D19E3A00957252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7C591628D19E3A00957252 /* Preview Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF7A5D8E295E815600E981D9 /* SJLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJLogger.swift; sourceTree = "<group>"; };
 		DF7C590C28D19E3800957252 /* TakeHomeMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7C590F28D19E3800957252 /* TakeHomeMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeMVVMApp.swift; sourceTree = "<group>"; };
 		DF7C591328D19E3A00957252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				DFF6CA6D2937ABE200EF8B28 /* JSON */,
 				DF7C591E28D19EB400957252 /* Symbols.swift */,
 				DF7C592028D1A08600957252 /* Theme.swift */,
+				DF7A5D8E295E815600E981D9 /* SJLogger.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF6CA7C2937AF4A00EF8B28 /* StaticJSONMapper.swift in Sources */,
+				DF7A5D8F295E815600E981D9 /* SJLogger.swift in Sources */,
 				DF7C591F28D19EB400957252 /* Symbols.swift in Sources */,
 				DFF6CA7E2938540000EF8B28 /* PeopleView.swift in Sources */,
 				DF7C592128D1A08600957252 /* Theme.swift in Sources */,
